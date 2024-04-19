@@ -574,7 +574,7 @@ body {
         align-items: start;
         margin-top: -7px;
         padding-left: 50px;
-        background-color: black;
+        background-color: #011e3c;
         z-index: 1;
         transform: translateX(100%);
         transition: all 1s;
