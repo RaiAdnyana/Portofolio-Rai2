@@ -798,6 +798,259 @@ body {
       hr {
         display: none;
       }
+}
 
+@media screen and (min-width: 577px) and (max-width: 884px){
+    /* menu */
+    .menu-toggle {
+        display: flex;
+        z-index: 2;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 250px;
+        width: 30%;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: start;
+        margin-top: -7px;
+        padding-left: 50px;
+        background-color: #011e3c;
+        z-index: 1;
+        transform: translateX(100%);
+        transition: all 1s;
+        opacity: 0;
+        border-bottom-left-radius: 10px;
+        box-shadow: 0px 0px 5px 1px black;
+    }
+
+    .menu.slide {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    /* nav */
+    .wrapper {
+        width: 80%;
+    }
+
+    .container-logo {
+        margin-left: 0;
+    }
+
+    .logoFoto {
+        margin-right: -4px;
+    }
+
+    .logoFoto img {
+        width: 50px;
+    }
+
+    .logoTeks {
+        font-size: 19px;
+        letter-spacing: 1.2px;
+    }    
+
+    /* umum */
+    .judul {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    .keterangan-judul{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 60px;
+        font-size: 19px;
+        color: #666;
+    }
+    
+    .GarisJudul {
+        width: 40px;
+        height: 5px;
+        background-color: #011e3c;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    /* end */
+
+    /* Home */
+    .Home {
+    flex-direction: column-reverse;
+    padding: 0px;
+    }
+
+    .HomeTeks {
+        width: 80%;
+        text-align: center;
+    }
+
+    .HomeTeks h1 {
+        font-size: 40px;
+        margin-bottom: 0px;
+        letter-spacing: 2px;
+    }
+
+    .container-teks{
+        margin-bottom: 10px;
+    }
+
+    .teks {
+        font-size: 27px;
+        margin-bottom : 20px;
+    }
+
+    .foto{
+        margin-bottom: 30px;
+    }
+
+    .foto img {
+        width: 450px;
+        border-radius: 50% 50% 30px 30px;
+        box-shadow: 0 3px 15px white;
+    }
+
+
+    /* about */
+    .About {
+        padding-top: 120px;
+        height: fit-content;
+        padding-bottom: 45px;
+    }
+    
+    .isiAbout {
+        flex-direction: column;
+    }
+    
+    .cerita {
+        width: 80%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    
+    .judul-cerita h1{
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    
+    .cerita-isi{
+        font-size: 19px;
+    }
+
+    .judul2 h1 {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    
+
+    .skilRai {
+        width: 80%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    /* Project */
+    .Project{
+        padding-top: 120px;
+    }
+    
+        .project {
+            align-items: center;
+            flex-direction: column;
+            width: 80%;
+        }
+
+        .fotoProject{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .fotoProject img{
+            width: 100%;
+            border-radius: 5px;
+        }
+
+            .keteranganProject{
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: left;
+                justify-content: start;
+                padding-left: 0;
+            }
+                .judulProject{
+                    font-size: 20px;
+                    margin-bottom: 10px;
+                    margin-top: -3px;
+                }
+                
+                .deskripsiProject p{
+                    font-size: 18px;
+                }
+    /* Project End */
+    
+    /* Contact */
+    .Contact {
+        padding-top: 120px; 
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .font{
+        color: #fff;
+    }
+    
+    .Hubungi {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .HubungiKanan {
+        flex-direction: row;
+        width: 80%;
+        margin-bottom: 20px;
+        
+    }
+    
+    .medsos{
+        display: flex;
+        flex-direction: column;
+        height: 320px;
+        margin-left: 20px;
+        margin-top: 0px
+    }
+
+    .medsos i {
+        margin: 30px;
+    }
+    
+    .Hubungikiri {
+        width: 80%;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    
+    .Hubungikiri iframe {
+        width: 100%;
+        height: 270px;
+        border: none;
+    }
+    /* Contact End */
+      .footerisi {
+      }
+
+      .Copyright {
+        text-align: center;
+        margin-top: 0;
+      }
+      
+      hr {
+      }
 }
 
