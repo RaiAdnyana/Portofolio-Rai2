@@ -345,13 +345,13 @@ body {
 
 .conteskil {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 
 .skil {
     width: 30%;
-    margin-bottom: 20px;
+    margin: 0 10px 20px 0;
 }
 
 .skil p {
@@ -390,7 +390,7 @@ body {
         display: flex;
         flex-direction: row;
         width: 75%;
-        padding: 20px;
+        padding: 30px;
         margin-bottom: 30px;
         border: 1px solid black;
         background-color: #fff;
@@ -401,7 +401,8 @@ body {
             flex-direction: column;
             align-items: left;
             justify-content: start;
-            padding-left: 20px;
+            margin-left: 40px;
+            
         }
             .judulProject{
                 margin-bottom: 20px;
@@ -410,7 +411,8 @@ body {
             
             .deskripsiProject p{
                 color: #666;
-                font-size: 17px;
+                font-size: 18px;
+                line-height: 1.5;
             }
 
 
@@ -475,12 +477,17 @@ body {
     background-color: #f9f9f9;
     height: 60px;
     box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    transition: all .9s;
 }
 
 .medsos i {
     font-size: 30px;
     color: #333;
     margin: 60px;
+}
+
+.medsos i:hover{
+    transform: scale(1.1);
 }
 
 .Hubungikiri {
@@ -539,6 +546,10 @@ body {
     font-size: 24px;
     color: white;
     margin-right: 20px;
+  }
+
+  .footerMedsos i:hover{
+    transform: scale(1.1);
   }
 
   .footerMedsos a {
@@ -734,9 +745,10 @@ body {
                 margin-top: 10px;
                 display: flex;
                 flex-direction: column;
-                align-items: left;
                 justify-content: start;
                 padding-left: 0;
+                margin-left: -4px;
+                width: 98%;
             }
                 .judulProject{
                     font-size: 16px;
@@ -983,6 +995,7 @@ body {
                 align-items: left;
                 justify-content: start;
                 padding-left: 0;
+                margin-left: -1px;
             }
                 .judulProject{
                     font-size: 20px;
@@ -1025,6 +1038,8 @@ body {
         margin-left: 20px;
         margin-top: 0px
     }
+
+
 
     .medsos i {
         margin: 30px;
